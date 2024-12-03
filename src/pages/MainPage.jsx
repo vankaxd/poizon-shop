@@ -1,3 +1,4 @@
+import Categories from "../components/Categories";
 import Info from "../components/Info";
 import NavBar from "../components/NavBar";
 
@@ -6,6 +7,7 @@ export default function MainPage() {
     <div>
       <NavBar />
       <Info />
+      <Categories />
     </div>
   );
 }

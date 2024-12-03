@@ -7,6 +7,7 @@ export default {
         poizonColor: "#57BFC1",
         mainbg: "#E2E8F0",
         mainText: "#73818E",
+        categoryBg: "#F1F5F9",
       },
     },
   },
