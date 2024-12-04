@@ -8,6 +8,7 @@ export default {
         mainbg: "#E2E8F0",
         mainText: "#73818E",
         categoryBg: "#F1F5F9",
+        footer: "#57BFC10F",
       },
     },
   },
