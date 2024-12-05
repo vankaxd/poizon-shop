@@ -19,9 +19,9 @@ export default function Categories() {
   return (
     <div>
       <div className="flex justify-around items-center my-6">
-        <h1 className="text-2xl font-bold">
+        <h1 className="text-2xl font-bold font-DMsans">
           Категории.{" "}
-          <span className="text-mainText font-normal">
+          <span className="text-mainText font-normal font-DMsans">
             Гарантированно оригинальные товары
           </span>
         </h1>

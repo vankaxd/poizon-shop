@@ -1,4 +1,4 @@
-export default function NewProductCard({ product, title }) {
+export default function NewProductCard({ product }) {
   return (
     <div className="w-64 h-42 flex flex-col gap-2 justify-between">
       <img src={product.image} alt={product.title} />
