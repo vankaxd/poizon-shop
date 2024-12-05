@@ -1,4 +1,5 @@
 import Categories from "../components/Categories";
+import Footer from "../components/Footer";
 import FooterPromo from "../components/FooterPromo";
 import Info from "../components/Info";
 import NavBar from "../components/NavBar";
@@ -15,6 +16,7 @@ export default function MainPage() {
       {/* <NewProducts products={newProducts} title=''/>
       <NewProducts products={newProducts} title=''/> */}
       <FooterPromo />
+      <Footer />
     </div>
   );
 }

@@ -32,6 +32,41 @@ const newProducts = [
     price: "127.000 ₽",
     image: pants,
   },
+  {
+    id: 5,
+    title: 'Scroll Logo Sweatpants "Black"',
+    brand: "CHROME HEARTS",
+    price: "127.000 ₽",
+    image: pants,
+  },
+  {
+    id: 6,
+    title: 'Scroll Logo Sweatpants "Black"',
+    brand: "CHROME HEARTS",
+    price: "127.000 ₽",
+    image: pants,
+  },
+  {
+    id: 7,
+    title: 'Scroll Logo Sweatpants "Black"',
+    brand: "CHROME HEARTS",
+    price: "127.000 ₽",
+    image: pants,
+  },
+  {
+    id: 8,
+    title: 'Scroll Logo Sweatpants "Black"',
+    brand: "CHROME HEARTS",
+    price: "127.000 ₽",
+    image: pants,
+  },
+  {
+    id: 9,
+    title: 'Scroll Logo Sweatpants "Black"',
+    brand: "CHROME HEARTS",
+    price: "127.000 ₽",
+    image: pants,
+  },
 ];
 
 export default newProducts;
