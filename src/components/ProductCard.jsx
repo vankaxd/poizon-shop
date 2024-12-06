@@ -1,7 +1,17 @@
+import { useNavigate } from "react-router";
+
 export default function ProductCard({ product }) {
+  const navigate = useNavigate();
+
+  const handleProductClick = () => {
+    navigate(`/обувь/${product.id}`);
+  };
   return (
     <div>
-      <div className="w-[494] h-[394px] flex flex-col justify-evenly">
+      <div
+        className="w-[494] h-[394px] flex flex-col justify-evenly"
+        onClick={handleProductClick}
+      >
         <img
           src={product.image}
           alt={product.title}

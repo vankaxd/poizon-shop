@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.svg";
-import ShoppingCart from "../assets/ShoppingCart.svg";
-import WhiteLogo from "../assets/whiteLogo.svg";
+import ShoppingCart from "../assets/MainPageImg/ShoppingCart.svg";
+import WhiteLogo from "../assets/MainPageImg/whiteLogo.svg";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -16,7 +16,7 @@ export default function NavBar() {
             <Link to="/обувь">Обувь</Link>
           </li>
           <li>
-            <a href="#">Одежда</a>
+            <Link to="/одежда">Одежда</Link>
           </li>
           <li>
             <a href="#">Аксессуары</a>

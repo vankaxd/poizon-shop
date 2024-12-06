@@ -7,12 +7,13 @@ export default function ProductUI({
   onFiltersChange,
   isFiltersOpen,
   toggleFilters,
+  title,
 }) {
   return (
     <div className="px-[150px] h-full mt-12">
       <div className="border-b-2 pb-6">
-        <h1>Обувь</h1>
-        <p>Главная / Одежда</p>
+        <h1>{title}</h1>
+        <p>Главная / {title}</p>
       </div>
 
       <button
