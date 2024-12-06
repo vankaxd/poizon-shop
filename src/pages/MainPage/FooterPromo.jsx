@@ -1,8 +1,8 @@
-import qr from "../assets/PromoCardImg/qr.png";
-import promoShoe from "../assets/PromoCardImg/promoShoe.png";
-import gift from "../assets/PromoCardImg/gift.svg";
-import bigGift from "../assets/PromoCardImg/bigGift.svg";
-import whiteLogo from "../assets/whiteLogo.svg";
+import qr from "../../assets/PromoCardImg/qr.png";
+import promoShoe from "../../assets/PromoCardImg/promoShoe.png";
+import gift from "../../assets/PromoCardImg/gift.svg";
+import bigGift from "../../assets/PromoCardImg/bigGift.svg";
+import whiteLogo from "../../assets/whiteLogo.svg";
 
 export default function FooterPromo() {
   return (

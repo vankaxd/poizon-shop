@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NewProductCard from "./NewProductCard";
-import Pagination from "./Pagination";
+import Pagination from "../../components/Pagination";
 
 export default function NewProducts({ products, title }) {
   const itemsOnPage = 4;
@@ -18,7 +18,7 @@ export default function NewProducts({ products, title }) {
         Новые поступления {title}
       </h1>
 
-      <div className="flex justify-evenly text-center mb-20">
+      <div className="flex justify-evenly h-auto text-center mb-20">
         {currentItems.map((el) => (
           <NewProductCard key={el.id} product={el} />
         ))}
