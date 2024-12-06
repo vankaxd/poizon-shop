@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import categories from "../utils/categories.constants";
+import categories from "../../utils/categories.constants";
 import CategoriesCard from "./CategoriesCard";
 
 export default function Categories() {
