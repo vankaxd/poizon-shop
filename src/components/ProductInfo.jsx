@@ -1,19 +1,20 @@
 import { useParams } from "react-router";
 import nikeJordan from "../utils/oneShoe.constant";
-import { shoes } from "../utils/productShoes.constants";
+import { shoes, anotherShoes } from "../utils/productShoes.constants";
+import AnotherProductsCard from "./AnotherProductsCard";
 
 export default function ProductInfo() {
   const { productId } = useParams();
-  console.log(productId);
+
   const shoe = shoes.find((item) => item.id === parseInt(productId));
-  console.log(shoe);
+
   return (
     <div>
       <div className="border-b-2 pb-6 mt-12 mx-[150px]">
         <p>Главная / обувь / {shoe.title}</p>
       </div>
       <div className=" px-[150px] mt-8 flex">
-        <div className="flex flex-wrap border-2 w-full h-auto">
+        <div className="flex flex-wrap w-full h-auto">
           <div className="w-full">
             <img src={nikeJordan.images[0]} />
           </div>
@@ -50,6 +51,14 @@ export default function ProductInfo() {
             Купить
           </button>
         </div>
+      </div>
+      <h1 className="mx-[150px] mb-[32px] mt-[117px] font-medium text-2xl font-DMsans">
+        Вам также может понравиться
+      </h1>
+      <div className="mx-[150px] flex w-auto mt-6 gap-2">
+        {anotherShoes.map((shoe) => (
+          <AnotherProductsCard product={shoe} key={shoe.id} />
+        ))}
       </div>
     </div>
   );

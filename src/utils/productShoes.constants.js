@@ -59,7 +59,7 @@ export const anotherShoes = [
     id: 1,
     title: 'Air Jordan 1 Low "Vintage Stealth Grey""',
     brand: "NIKE",
-    price: "35s.000 ₽",
+    price: "35.000 ₽",
     image: nike7,
   },
   {
