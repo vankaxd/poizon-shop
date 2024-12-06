@@ -2,9 +2,8 @@ import Categories from "./Categories";
 import Footer from "../../components/Footer";
 import FooterPromo from "./FooterPromo";
 import Info from "./Info";
-
-import NewProducts from "./NewProducts";
 import newProducts from "../../utils/newProducts.constants";
+import NewProducts from "./NewProducts";
 
 export default function MainPage() {
   return (

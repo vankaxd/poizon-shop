@@ -1,4 +1,4 @@
-import infoPicture from "../../assets/info-picture.png";
+import infoPicture from "../../assets/MainPageImg/info-picture.png";
 
 export default function Info() {
   return (

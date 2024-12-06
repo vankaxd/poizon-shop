@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ProductUI from "../../components/ProductUI";
-import shoes from "../../utils/productShoes.constants";
+import { shoes } from "../../utils/productShoes.constants";
 import useFilter from "../../hooks/useFilter";
 
-export default function ShoesPage() {
+export default function ShoesPage({ title }) {
   const [filters, setFilters] = useState({
     priceRange: [3000, 100000],
     brands: [],
@@ -29,6 +29,7 @@ export default function ShoesPage() {
         onFiltersChange={handleFiltersChange}
         isFiltersOpen={isFiltersOpen}
         toggleFilters={toggleFilters}
+        title={title}
       />
     </div>
   );

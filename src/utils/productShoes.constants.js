@@ -4,8 +4,12 @@ import nike3 from "../assets/ProductsImg/Shoes/nike3.png";
 import nike4 from "../assets/ProductsImg/Shoes/nike4.png";
 import nike5 from "../assets/ProductsImg/Shoes/nike5.png";
 import nike6 from "../assets/ProductsImg/Shoes/nike6.png";
+import nike7 from "../assets/ProductsImg/Shoes/nike7.png";
+import nike8 from "../assets/ProductsImg/Shoes/nike8.png";
+import nike9 from "../assets/ProductsImg/Shoes/nike9.png";
+import nike10 from "../assets/ProductsImg/Shoes/nike10.png";
 
-const shoes = [
+export const shoes = [
   {
     id: 1,
     title: 'Dunk Low WMNS "White / Black"',
@@ -50,4 +54,35 @@ const shoes = [
   },
 ];
 
-export default shoes;
+export const anotherShoes = [
+  {
+    id: 1,
+    title: 'Air Jordan 1 Low "Vintage Stealth Grey""',
+    brand: "NIKE",
+    price: "35s.000 ₽",
+    image: nike7,
+  },
+  {
+    id: 2,
+    title: 'Dunk Low Retro "Black / White"',
+    brand: "NIKE",
+    price: "23.000 ₽",
+    image: nike8,
+  },
+  {
+    id: 3,
+    title: 'Air Jordan 1 Retro Low OG SP "Travis Scott - Reverse Mocha"',
+    brand: "NIKE",
+    price: "135.000 ₽",
+    image: nike9,
+  },
+  {
+    id: 4,
+    title: 'Dunk Low Retro "Black / White"',
+    brand: "NIKE",
+    price: "23.000 ₽",
+    image: nike10,
+  },
+];
+
+export default { shoes, anotherShoes };
