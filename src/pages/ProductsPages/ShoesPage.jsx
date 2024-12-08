@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProductUI from "../../components/ProductUI";
+import ProductUI from "./ProductUI";
 import { shoes } from "../../utils/productShoes.constants";
 import useFilter from "../../hooks/useFilter";
 

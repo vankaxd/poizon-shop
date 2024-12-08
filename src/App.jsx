@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import ShoesPage from "./pages/ProductsPages/ShoesPage";
 // import ClothingPage from "./pages/ProductsPages/ClothingPage";
-import ProductInfo from "./components/ProductInfo";
+import ProductInfo from "./pages/OneProductPage/ProductInfo";
+import OrderPage from "./pages/OrderPage/OrderPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/order" element={<OrderPage />} />
         <Route path="/обувь" element={<ShoesPage title={"Обувь"} />} />
         {/* <Route path="/одежда" element={<ClothingPage title={"Одежда"} />} /> */}
         <Route path="/test" element={<ProductInfo />} />
