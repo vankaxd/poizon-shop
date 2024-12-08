@@ -1,16 +1,12 @@
-import { useNavigate } from "react-router";
+import { useProductNavigation } from "../hooks/useProductNavigation";
 
 export default function ProductCard({ product }) {
-  const navigate = useNavigate();
-
-  const handleProductClick = () => {
-    navigate(`/обувь/${product.id}`);
-  };
+  const handleProductClick = useProductNavigation();
   return (
     <div>
       <div
         className="w-[494] h-[394px] flex flex-col justify-evenly"
-        onClick={handleProductClick}
+        onClick={() => handleProductClick("обувь", product.id)}
       >
         <img
           src={product.image}
