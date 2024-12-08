@@ -1,11 +1,11 @@
 import { useParams } from "react-router";
-import nikeJordan from "../utils/oneShoe.constant";
-import { shoes, anotherShoes } from "../utils/productShoes.constants";
-import AnotherProductsCard from "./AnotherProductsCard";
+import nikeJordan from "../../utils/oneShoe.constant";
+import { shoes, anotherShoes } from "../../utils/productShoes.constants";
+import AnotherProductsCard from "../../components/AnotherProductsCard";
 import { useState } from "react";
-import SlideButton from "../pages/OneProductPage/SlideButton";
-import slideIcon1 from "../assets/OneShoeImg/slideIcons/slideIcon1.svg";
-import { slideInfo } from "../utils/slide.constants";
+import SlideButton from "./SlideButton";
+import slideIcon1 from "../../assets/OneShoeImg/slideIcons/slideIcon1.svg";
+import { slideInfo } from "../../utils/slide.constants";
 
 export default function ProductInfo() {
   const { productId } = useParams();

@@ -33,7 +33,9 @@ export default function NavBar() {
         </ul>
 
         <div className="flex items-center">
-          <img src={ShoppingCart} alt="shoppingCart" className="mr-2" />
+          <Link to="/order">
+            <img src={ShoppingCart} alt="shoppingCart" className="mr-2" />
+          </Link>
 
           <button className="flex justify-center items-center bg-poizonColor space-x-2 text-white rounded-lg px-4">
             <img src={WhiteLogo} alt="buttonLogo" className="w-8 h-6s" />

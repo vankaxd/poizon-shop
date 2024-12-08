@@ -1,5 +1,5 @@
-import ProductCard from "./ProductCard";
-import Filters from "../components/Filters";
+import ProductCard from "../../components/ProductCard";
+import Filters from "../../components/Filters";
 
 export default function ProductUI({
   product,
