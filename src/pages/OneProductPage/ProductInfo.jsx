@@ -1,11 +1,12 @@
 import { useParams } from "react-router";
 import nikeJordan from "../../utils/oneShoe.constant";
 import { shoes, anotherShoes } from "../../utils/productShoes.constants";
-import AnotherProductsCard from "../../components/AnotherProductsCard";
 import { useState } from "react";
-import SlideButton from "./SlideButton";
+
 import slideIcon1 from "../../assets/OneShoeImg/slideIcons/slideIcon1.svg";
 import { slideInfo } from "../../utils/slide.constants";
+import AnotherProductsCard from "./AnotherProductsCard";
+import SlideButton from "../../components/SlideButton";
 
 export default function ProductInfo() {
   const { productId } = useParams();
@@ -27,11 +28,11 @@ export default function ProductInfo() {
         <p>Главная / обувь / {shoe.title}</p>
       </div>
       <div className="px-[150px] mt-8 flex">
-        <div className="flex flex-wrap w-full h-auto md:w-1/2">
+        <div className="flex flex-wrap 2xl:w-full h-full xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-screen">
           <div className="w-full">
             <img src={nikeJordan.images[0]} />
           </div>
-          <div className="flex flex-wrap w-[1019px] ">
+          <div className="flex flex-wrap h-auto w-[1019px] ">
             {nikeJordan.images.slice(1).map((img, index) => (
               <div key={index} className="w-1/2">
                 <img src={img} alt="" />
@@ -39,9 +40,9 @@ export default function ProductInfo() {
             ))}
           </div>
         </div>
-        <div className="ml-6">
+        <div className="ml-6 ">
           <p className="text-mainText">{nikeJordan.brand}</p>
-          <h1 className="font-light text-5xl w-full]">{shoe.title}</h1>
+          <h1 className="font-light text-5xl w-full">{shoe.title}</h1>
           <p className="mt-4">{shoe.price}</p>
           <p className="mt-4 font-light">
             Все налоги и таможенные сборы включены. Стоимость доставки

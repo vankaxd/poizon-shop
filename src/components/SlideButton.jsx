@@ -24,7 +24,7 @@ export default function SlideButton({
 
       {slideIsOpen && (
         <div
-          className={`absolute top-full left-0 w-full animate-slideDown bg-white z-10`}
+          className={`absolute top-full left-0 w-full  py-4 animate-slideDown bg-white z-10`}
         >
           <SlideInfo info={info} />
         </div>

@@ -1,4 +1,4 @@
-import { useProductNavigation } from "../hooks/useProductNavigation";
+import { useProductNavigation } from "../../hooks/useProductNavigation";
 
 export default function ProductCard({ product }) {
   const handleProductClick = useProductNavigation();
