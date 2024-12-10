@@ -1,5 +1,6 @@
 import categoryShoe from "../assets/CategoriesImg/categoryShoe.png";
 import categoryTshirt from "../assets/CategoriesImg/categoryTshirt.png";
+import categoryBottle from "../assets/CategoriesImg/categoryBottle.png";
 
 const categories = [
   {
@@ -21,7 +22,7 @@ const categories = [
     title: "Ассортимент",
     description:
       "Откройте для себя мир роскоши и качества с одеждой от ведущих мировых брендов: Addidas, Timberland, The North Face и других знаменитых брендов",
-    image: categoryTshirt,
+    image: categoryBottle,
   },
 ];
 

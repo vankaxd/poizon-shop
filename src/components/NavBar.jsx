@@ -37,7 +37,7 @@ export default function NavBar() {
             <img src={ShoppingCart} alt="shoppingCart" className="mr-2" />
           </Link>
 
-          <button className="flex justify-center items-center bg-poizonColor space-x-2 text-white rounded-lg px-4">
+          <button className="flex justify-center items-center bg-poizonColor space-x-2 text-white rounded-lg px-4 ">
             <img src={WhiteLogo} alt="buttonLogo" className="w-8 h-6s" />
             <div className="text-left">
               <p>Наш телеграм канал</p>
