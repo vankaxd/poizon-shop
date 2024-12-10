@@ -12,7 +12,6 @@ export default function ProductInfo() {
   const { productId } = useParams();
   const shoe = shoes.find((item) => item.id === parseInt(productId));
 
-  // Создаем состояние для всех слайдов
   const [openSlides, setOpenSlides] = useState({});
 
   const handleSlideOpen = (index) => {
