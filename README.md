@@ -14,4 +14,4 @@ https://vankaxd.github.io/poizon-shop/
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/vankaxd/poizon-shop.git
